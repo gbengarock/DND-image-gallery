@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   
   return (
-    <div className='sm:bg-header sm:bg-cover sm:h-[600px]'>
-      <div className='w-full m-1 my-[30%] sm:my-0 sm:grid sm:grid-cols-2'>
-        <h2 className='w-full sm:w-[50%] mx-auto sm:py-[8%] text-blue-900 text-xl sm:text-3xl lg:text-5xl sm:font-bold'>RESPONSIVE FILTERABLE DRAG AND DROP IMAGE GALLERY</h2>
-        <div className='items-center sm:py-[10%]'>
+    <div className='bg-gray-700 sm:bg-header sm:bg-cover h-screen'>
+      <div className='w-[90%] mx-auto sm:w-full m-1 my-[30%] sm:my-0 sm:grid sm:grid-cols-2'>
+        <h2 className='w-full sm:w-[50%] mx-auto pt-[40%] sm:py-[8%] text-white text-2xl sm:text-3xl lg:text-5xl font-bold'>RESPONSIVE FILTERABLE DRAG AND DROP IMAGE GALLERY</h2>
+        <div className='items-center py-10 sm:py-[10%]'>
           <Login />
         </div>
       </div>

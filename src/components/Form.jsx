@@ -34,7 +34,7 @@ const Login = () => {
           />
         </div>
         <div>
-          <input className='m-2 sm:m-3 w-[120px] sm:w-[300px] border border-t-1 rounded-sm sm:p-1'
+          <input className='m-2 sm:m-3 w-[200px] sm:w-[300px] border border-t-1 rounded-sm sm:p-1'
             type="password"
             placeholder="1Password"
             value={password}
@@ -42,7 +42,7 @@ const Login = () => {
           />
         </div>
         {error && <div className="text-xs text-red-600 mx-3">{error}</div>}
-        <button className='bg-blue-900 w-[120px] sm:w-[300px] sm:p-1 text-center text-white m-2 sm:m-3 rounded-sm hover:bg-gray-800 hover:text-gray-50'>Login</button>
+        <button className='bg-blue-900 w-[200px] sm:w-[300px] sm:p-1 text-center text-white m-2 sm:m-3 rounded-sm hover:bg-gray-800 hover:text-gray-50'>Login</button>
       </form>
     </div>
   )
